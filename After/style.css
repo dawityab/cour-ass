@@ -11,8 +11,9 @@ body {
 	border: 0;
 }
 #logo-img {
-	background:url('Google-Dev-EMEA-Badge.png') no-repeat;
+	background:url('After/logo_china.png') no-repeat;
 	width: 150px;
 	height: 150px;
 	margin: 10px 15px 10px 0;
+	border-radius: 15px;
 }
