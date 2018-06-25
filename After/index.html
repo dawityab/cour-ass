@@ -5,9 +5,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>David Chu's China Bistro</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet" type="text/css">
+   
+   
 </head>
 
 <body>
@@ -17,7 +19,7 @@
 	<nav id="header-nav" class="navbar navbar-default">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="index.html" class="p">
+				<a href="index.html" class="pull-left visible-md visible-lg">
 				<div id="logo-img" alt="Logo image"></div>
 				</a>
 				
@@ -26,10 +28,44 @@
 					<h1>David Chu's China Bistro</h1>
 					</a>
                     <p>
-                   	<img src="images/star2-512.png" width="20px" height="20px">
+                   	<img src="images/star2-512.png">
                    	<span>Kosher Certified</span>
                     </p>
 				</div>
+				<button type="button" class="navbar-toggle collapse" data-toggle="collapsed" data-target ="#collapsable-nav" aria-expanded="flase">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					
+
+				</button>
+
+			</div>
+
+			<div id="collapsable-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="na navbar-nav navbar-right">
+					
+					<li>
+						<a href="menu-categories.html">
+							<span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs">Menu
+						</a>
+		            </li>		
+                    <li>
+	                      <a href="#">
+	                      	<span class="glyphicon glyphicon-sign"></span><br class="hidden-xs">
+	                      About</a>
+                    </li>
+                     <li>
+	                      <a href="#">
+	                      	<span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs">
+	                      Awards</a>
+                    </li>
+                    <li id="phone" class="hidden-xs">
+                    	<a href="tel:410-602-5008"><span>410-602-5008</span></a><div>*We Deliver</div>
+                    </li>
+	</ul>
+				
 			</div>
 			
 		</div>
