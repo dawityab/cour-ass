@@ -179,6 +179,7 @@ border-radius: 4px;
 	border: 2px solid #3F0C1F;
 }
 
+<<<<<<< HEAD
 #menu-tile, #specials-tile, #map-tile{
 	height: 250px;
 	width: 100%;
@@ -294,6 +295,24 @@ h3.menu-item-title {
 	font-style: italic;
 }
 /*End SINGLE CATEGORY PAGE*/
+=======
+
+#menu-title, #specials-tile, #map-tile
+{
+
+height: 250px;
+width: 100px;
+margin-bottom: 15px;
+position: relative;
+border: 2px solid #3F0C1F;
+overflow: hidden;
+
+}	
+#menu-title:hover, #specials-tile:hover, #map-tile:hover
+{
+box-shadow: 0 1px 5px 1px #cccccc;
+}
+>>>>>>> 1f097987bbeda28dd96def44d4dc7baec7b28681
 
 @media (min-width: 1200px){
 .container .jumbotron  {
